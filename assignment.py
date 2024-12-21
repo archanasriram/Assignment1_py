@@ -109,3 +109,4 @@ S2=50
 S1,S2=S2,S1
 Print("s1",S1)
 print("s2",S2)
+# Arithmetic operation
