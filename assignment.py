@@ -78,7 +78,8 @@ def simple_int():
     return p*n*r/100
 si=simple_int()
 print("The simple interesr is: ", si)
-## Fibonacci to be tried
+## Fibonacci to be tried      (fn=fn-1+fn-2)  1,1,2,3,5,6
+
 ## Multiplication table for 
 n=int(input("Enter the num:"))
 for i in range(1,11):
@@ -107,6 +108,44 @@ type(num4)
 S1=10
 S2=50
 S1,S2=S2,S1
-Print("s1",S1)
+print("s1",S1)
 print("s2",S2)
-# Arithmetic operation
+#Arithmetic operation(Sum,difference,multiplication,division of 2 numbers)
+arith1=int(input("Enter number1:"))
+arith2=int(input("Enter the number 2:"))
+arith3=input("Enter the arithmetic operator to be performed:add ,sub,mul,div:")
+if arith3=='add':
+    print("The result is:",arith1+arith2)
+elif arith3== 'sub':
+    print("The result is :",arith1-arith2)
+elif arith3== 'mul':
+    print("The result is:",arith1*arith2)
+elif arith3=='div':
+    print("The result is:",arith1/arith2)
+else:
+    print("Invalid input")
+#Modulas operator
+a=15
+b=4
+c=a%b
+print(c)
+#Comparison operator
+a=int(input("Enter te value of a:"))
+b=int(input("Enter the value of b:"))
+if a==b:
+    print("a is equal to b")
+elif a<=b:
+    print("a is lesser than b")
+elif a>=b:
+    print("a is greater than b")
+#Logical operator
+a=10
+b=20
+print(a>1 and b<5)
+print(a>12 or b<10)
+print (a!=b)
+# Bit wise operation using binary
+
+# git add <file path>
+# git commit -m "commmit message"
+# git push origin main
